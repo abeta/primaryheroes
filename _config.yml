@@ -1,0 +1,31 @@
+title: 'Primary Heroes'
+permalink: none
+url: 'https://primary-heroes.com'
+timezone: Europe/London
+analytics:
+    provider: google_analytics
+    tracking_id: 
+defaults:
+    -
+        scope:
+            path: ''
+            type: posts
+        values:
+            layout: page
+    -
+        scope:
+            path: ''
+            type: pages
+        values:
+            layout: page
+description: 'The Costume Games'
+baseurl: /
+gems:
+    - autoprefixer-rails
+    - jekyll-assets
+    - jekyll-sitemap
+mediaurl: _media
+assets:
+    cache: true
+    js_compressor: uglifier
+    css_compressor: yui

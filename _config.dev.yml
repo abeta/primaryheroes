@@ -1,0 +1,7 @@
+url: '/clients/primary-heroes/_site/'
+assets:
+    baseurl: "/clients/primary-heroes/_site/assets"
+    cache: false
+    js_compressor: false
+    css_compressor: false
+    gzip: false
